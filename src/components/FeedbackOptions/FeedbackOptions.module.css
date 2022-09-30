@@ -1,0 +1,47 @@
+@media screen and (min-width: 768px) {
+  .list {
+    display: flex;
+  }
+}
+
+.item {
+  margin-bottom: 30px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .item {
+    margin-right: 30px;
+  }
+
+  .item:last-child {
+    margin-right: 0;
+  }
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: inherit;
+  font-size: 16px;
+
+  width: 150px;
+  height: 40px;
+
+  background-color: #008000;
+  color: wheat;
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #02ac02;
+}
