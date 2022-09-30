@@ -4,10 +4,6 @@
   }
 }
 
-.item {
-  margin-bottom: 30px;
-}
-
 .item:last-child {
   margin-bottom: 0;
 }
@@ -33,15 +29,21 @@
   width: 150px;
   height: 40px;
 
-  background-color: #008000;
-  color: wheat;
+  background-color: #26082c;
+  color: white;
   border: none;
   border-radius: 5px;
 
   cursor: pointer;
+
+  transition: border-radius 0.3s, background-color 0.3s, box-shadow 0.3s;
 }
 
 .button:hover,
 .button:focus {
-  background-color: #02ac02;
+  background-color: #490d41;
+  border-radius: 10px;
+  box-shadow: -1px 14px 5px -9px rgba(0,0,0,0.54);
+  -webkit-box-shadow: -1px 14px 5px -9px rgba(0,0,0,0.54);
+  -moz-box-shadow: -1px 14px 5px -9px rgba(0,0,0,0.54);
 }

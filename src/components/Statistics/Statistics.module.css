@@ -7,11 +7,13 @@
 }
 
 .text {
+  color: white;
   font-size: 25px;
   font-weight: 600;
   text-transform: capitalize;
 }
 
 .value {
-  color: #008000;
+  margin-left: 10px;
+  color: #fff;
 }

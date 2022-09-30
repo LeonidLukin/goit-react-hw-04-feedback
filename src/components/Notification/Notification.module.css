@@ -1,4 +1,7 @@
 .message {
-  font-size: 20px;
-  color: grey;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  font-size: 14px;
+  color: #fff;
 }
