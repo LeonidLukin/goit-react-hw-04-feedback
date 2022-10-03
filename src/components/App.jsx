@@ -35,7 +35,7 @@ export default function App() {
     const goodFeedback = good;
     let result = 0;
 
-    if (totalFeedback > 0) {
+    if (totalFeedback) {
       result = Math.ceil((goodFeedback / totalFeedback) * 100);
     }
 
@@ -53,7 +53,7 @@ export default function App() {
         </Section>
 
         <Section title="Statistics">
-          {countTotalFeedback() > 0 ? (
+          {countTotalFeedback() ? (
             <Statistics
               good={good}
               neutral={neutral}
@@ -69,7 +69,6 @@ export default function App() {
     </div>
   );
 };
-
 
 // class oldApp extends Component {
 //   state = {
